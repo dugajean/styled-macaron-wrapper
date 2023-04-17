@@ -16,7 +16,7 @@
 	},
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc && vite build",
+		"build": "tsc && vite build --mode=prod",
 		"preview": "vite preview",
 		"test": "vitest",
 		"format": "prettier --config .prettierrc 'src/**/*.ts' --write"
@@ -37,6 +37,7 @@
 		"styled-components": "^5.3.9",
 		"typescript": "^4.9.3",
 		"vite": "^4.2.0",
+		"vite-plugin-dts": "^2.3.0",
 		"vitest": "^0.30.1"
 	}
 }
