@@ -6,7 +6,7 @@
 	"files": [
 		"dist"
 	],
-	"main": "./dist/styled-macaron-wrapper.umd.cjs",
+	"main": "./dist/styled-macaron-wrapper.cjs",
 	"module": "./dist/styled-macaron-wrapper.js",
 	"exports": {
 		".": {
