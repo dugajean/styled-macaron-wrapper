@@ -1,11 +1,12 @@
 {
 	"name": "styled-macaron-wrapper",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"type": "module",
 	"license": "MIT",
 	"files": [
 		"dist"
 	],
+	"types": "./dist/styled-macaron-wrapper.d.ts",
 	"main": "./dist/styled-macaron-wrapper.cjs",
 	"module": "./dist/styled-macaron-wrapper.js",
 	"exports": {
